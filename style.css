@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+/* HEADER */
+
+/* NAV-BAR */
+
+.wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-bar {
+    background-color: #1f2937;
+    padding: 20px 0px;
+}
+
+.nav-bar-container {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.nav-bar .logo {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.nav-bar .nav-bar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.nav-bar .nav-bar-links .nav-bar-links-list li {
+    list-style-type: none;
+    
+}
+
+.nav-bar .nav-bar-links .nav-bar-links-list {
+    display: flex;
+    gap: 25px;
+}
