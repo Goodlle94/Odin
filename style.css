@@ -1,16 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Roboto:wght@400;700;900&display=swap');
+
 * {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* HEADER */
 
 /* NAV-BAR */
-
-.wrapper {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .nav-bar {
     background-color: #1f2937;
@@ -20,8 +16,10 @@
 .nav-bar-container {
     display: flex;
     justify-content: space-between;
-
     align-items: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -29,6 +27,7 @@
     text-decoration: none;
     color: white;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .nav-bar .nav-bar-links a {
@@ -39,7 +38,7 @@
 
 .nav-bar .nav-bar-links .nav-bar-links-list li {
     list-style-type: none;
-    
+
 }
 
 .nav-bar .nav-bar-links .nav-bar-links-list {
